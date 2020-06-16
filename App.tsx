@@ -1,13 +1,13 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 import { Provider as PaperProvider } from 'react-native-paper';
-import Home from './screens/Home';
+import { Bottombar } from './components/Bottombar';
 
 export default function App() {
   return (
-      <SafeAreaView>
+      <SafeAreaView style={{flex: 1}}>
         <PaperProvider>
-            <Home />
+            <Bottombar />
         </PaperProvider>
       </SafeAreaView>
   );
