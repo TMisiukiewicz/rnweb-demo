@@ -1,12 +1,18 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, ScrollView, FlatList } from 'react-native'
 import Topbar from '../components/Topbar'
+import news from '../news';
+import SingleCard from '../components/SingleCard';
 
 export const News = () => {
     return (
-        <View>
+        <>
             <Topbar title="News feed" subtitle="Let's read something" />
-            <Text>News</Text>
-        </View>
+            <FlatList
+            data={news}
+            renderItem={({item}) => <SingleCard {...item} />}
+            keyExtractor={item => item.id.toString()}
+            />
+        </>
     )
 }
