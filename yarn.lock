@@ -3874,12 +3874,6 @@ react-native-paper@^3.10.1:
     color "^3.1.2"
     react-native-safe-area-view "^0.14.9"
 
-react-native-reanimated@~1.7.0:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.7.1.tgz#6363c7f3ebbabc56a05d5dccaf09d95f3b6a2d69"
-  dependencies:
-    fbjs "^1.0.0"
-
 react-native-safe-area-context@0.7.3:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-0.7.3.tgz#ad6bd4abbabe195332c53810e4ce5851eb21aa2a"
@@ -4603,8 +4597,8 @@ typescript@~3.8.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
 
 ua-parser-js@^0.7.18:
-  version "0.7.21"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
 
 uglify-es@^3.1.9:
   version "3.3.9"
